@@ -5,13 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="Uzum uzum do'kon uzum market bozor" />
     <meta name="description" content="Bizda harid qiling" />
-    <link rel="stylesheet" href="../output.css" />
+    <link rel="stylesheet" href="../css/output.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
     <title>Sardor - Market</title>
   </head>
   <body>
-    <header class="w-full">
-      <img src="https://uzum.uz/ru" alt="" />
-      <h1>Uzumn</h1>
+    <!-- Navbar -->
+    <header
+      class="w-full fixed border-b px-10 py-5 flex items-center justify-between"
+    >
+      <!-- Logo Start -->
+      <div
+        class="flex flex-row items-center justify-center rounded-xl shadow-xl backdrop-blur-xl border bg-white/50 px-5"
+      >
+        <img class="inline-block" width="60" src="../assets/logo.png" alt="" />
+        <h1 class="text-2xl font-bold linear-gradient select-none">
+          <code class="text-4xl">S</code>ardor
+          <code class="text-4xl">M</code>arket
+        </h1>
+      </div>
+      <!-- Logo End -->
+
+      <!-- Menu Start -->
+      <ul
+        class="flex gap-6 px-3 py-4 text-xl border rounded-xl shadow-xl backdrop-blur-xl bg-white/50 linear-gradient"
+      >
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Bag</a>
+        </li>
+        <li>
+          <a href="#">Favourite</a>
+        </li>
+        <li>
+          <a href="#">Account</a>
+        </li>
+      </ul>
+      <!-- Menu End -->
+
+      <!-- Search Start -->
+      <div>
+        <div
+          class="flex gap-3 items-center border rounded-xl shadow-xl backdrop-blur-xl bg-white/50 px-5 py-[.5rem]"
+        >
+          <i class="fa-solid fa-magnifying-glass text-xl linear-gradient"></i>
+          <input
+            placeholder="Search"
+            class="outline-none p-2 text-lg linear-gradient"
+          />
+        </div>
+      </div>
+      <!-- Search End -->
     </header>
+    <!-- Navbar -->
   </body>
 </html>
